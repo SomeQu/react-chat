@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+*{
+font-family: 'Noto Sans', sans-serif;
+color: white;
+}
+
+body{
+    background-color:black
+}
+
+.container-register{
+    z-index: 2;
+    background-color:#4169ef;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+   
+}
+.content-register{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    width: 500px;
+   height: 550px;
+   border:1px solid black;
+   border-radius:5px;
+   background-color: #424549;
+   box-shadow: 9px 18px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.one-register{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width:500px;
+    height: 100px;
+    margin-top: 15px;
+}
+.one-register h1{
+font-size: 24px;
+font-weight: 600;
+line-height: 14px;
+}
+.two-register{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:500px;
+    height: 300px;
+    gap: 30px;
+    
+}
+
+.mail-register input{
+border: 1px solid black;
+margin-top: 15px;
+width: 400px;
+height: 40px;
+background-color: 	#1e2124;
+font-size: 16px;
+padding-left: 10px;
+
+}
+.pass-register input{
+    border: 1px solid black;
+    margin-top: 15px;
+    width: 400px;
+    height: 40px;
+    background-color: 	#1e2124;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+
+ .content-register button{
+    background-color:#b8c4ec;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    border-radius:5px;
+    margin-top: 15px;
+    margin-bottom: 30px; 
+    transition-duration: 0.3s;
+    
+}
+.content-register button:hover{
+    background-color:#7289da
+    ;
+}
+.content-register button:active{
+    background-color:#4f5f98;
+}
+
+.content-register p{
+    margin-bottom: 5px;
+}
+
+
+.backgroundAn{
+    z-index: 1;
+}
+.nickname-register input{
+    border: 1px solid black;
+    margin-top: 15px;
+    width: 400px;
+    height: 40px;
+    background-color: 	#1e2124;
+    font-size: 16px;
+    padding-left: 10px;
+    
+}
